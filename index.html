@@ -1,34 +1,59 @@
 <!doctype html>
-<html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
-<title>Spirit House: 3 emails by The Service Edit</title>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Three emails for Spirit House</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f4f3f1;--ink:#1a1a1a;--muted:#6b6b6b;--line:#dcdad6}
+:root{--ink:#1B1512;--paper:#F7F4EC;--brown:#3A2E25;--off:#F1EDE2;--mute:#6B5F54;--line:#DED6C8}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
-header{max-width:1320px;margin:0 auto;padding:56px 24px 34px;text-align:center}
-h1{margin:0 0 10px;font-size:28px;font-weight:600;letter-spacing:-.01em}
-header p{margin:0;color:var(--muted);font-size:15px;line-height:1.5}
-.grid{max-width:1320px;margin:0 auto;padding:0 24px 64px;display:grid;grid-template-columns:repeat(3,1fr);gap:36px;align-items:start}
-.item{margin:0}
-.meta{display:flex;gap:10px;align-items:baseline;margin:0 auto 12px;max-width:390px}
-.n{font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.08em}
-.subj{font-size:14px;font-weight:600}
-.phone{position:relative;width:100%;max-width:390px;margin:0 auto;height:780px;border-radius:44px;background:#111;padding:14px;box-shadow:0 20px 50px rgba(0,0,0,.18)}
-.notch{position:absolute;top:22px;left:50%;transform:translateX(-50%);width:96px;height:24px;border-radius:14px;background:#111;z-index:2}
-.phone iframe{display:block;width:100%;height:100%;border:0;border-radius:32px;background:#fff}
-figcaption{max-width:390px;margin:16px auto 0;font-size:14px;line-height:1.45;color:var(--muted);text-align:center}
-footer{text-align:center;color:var(--muted);font-size:13px;padding:0 24px 48px}
-@media (max-width:1100px){.grid{grid-template-columns:1fr;gap:56px}}
-@media (max-width:440px){header{padding:40px 16px 26px}.grid{padding:0 16px 48px}.phone{height:720px;border-radius:38px;padding:10px}.phone iframe{border-radius:30px}h1{font-size:24px}}
-</style></head><body>
-<header><h1>Spirit House: 3 emails by The Service Edit</h1>
-<p>Built from your own photos, menus, classes and voucher pages. Scroll inside each phone to read the full email.</p></header>
-<main class="grid">
-<figure class="item">
-<div class="meta"><span class="n">01</span><span class="subj">Subject: Welcome through the gates</span></div>
-<div class="phone"><div class="notch"></div><iframe title="Email 1: Welcome through the gates" srcdoc="&lt;!doctype html&gt;
-&lt;html lang=&quot;en-AU&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Geist,'Helvetica Neue',Arial,sans-serif}
+.band{background:var(--brown);color:var(--off)}
+.wrap{max-width:1320px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+header .wrap{display:flex;justify-content:space-between;align-items:center;padding-block:22px}
+header small{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#D9D1C2}
+.intro .wrap{padding-block:20px 56px}
+h1{margin:0;font-size:clamp(40px,7vw,96px);line-height:.92;letter-spacing:-.04em;text-transform:uppercase;font-weight:600;max-width:12ch;text-wrap:balance}
+.intro p{margin:22px 0 0;max-width:60ch;font-size:18px;line-height:1.55;color:#E6DFD2}
+.emails .wrap{padding-block:56px 20px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;align-items:start}
+.card{min-width:0}
+.card .k{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.card h2{margin:6px 0 8px;font-size:26px;letter-spacing:-.02em;font-weight:600}
+.card p{margin:0 0 18px;font-size:15px;line-height:1.5;color:#3d342d;min-height:4.5em}
+.phone{background:#111;border-radius:42px;padding:12px;box-shadow:0 24px 60px rgba(27,21,18,.18)}
+.phone iframe{display:block;width:100%;height:760px;border:0;border-radius:32px;background:#fff}
+.phone .hint{color:#bbb;font-size:12px;text-align:center;padding:10px 0 2px}
+.photos .wrap{padding-block:64px 24px}
+.photos h3{margin:0 0 6px;font-size:clamp(28px,4vw,48px);letter-spacing:-.03em;text-transform:uppercase;font-weight:600}
+.photos > .wrap > p{margin:0 0 26px;max-width:60ch;font-size:16px;line-height:1.55;color:#3d342d}
+.pairs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;min-width:0}
+.pair figure{margin:0}
+.pair img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:14px;display:block}
+.pair figcaption{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);padding-top:8px}
+.close .wrap{padding-block:56px 64px}
+.close h3{margin:0 0 12px;font-size:clamp(28px,4vw,48px);letter-spacing:-.03em;text-transform:uppercase;font-weight:600;color:var(--off)}
+.close p{margin:0;font-size:17px;line-height:1.6;color:#E6DFD2;max-width:60ch}
+.close .who{margin-top:24px;font-size:15px;color:var(--off)}
+.close .note{margin-top:28px;font-size:13px;color:#BFB4A3}
+@media (max-width:980px){.grid{grid-template-columns:1fr;max-width:440px;margin:0 auto}.card p{min-height:0}.pairs{grid-template-columns:1fr}}
+</style>
+
+</head>
+<body>
+<header class="band"><div class="wrap"><svg width="78" height="42" viewBox="0 0 120 64" role="img" aria-label="The Service Edit"><g font-family="Geist,Helvetica,Arial,sans-serif" font-weight="700" font-size="21" letter-spacing="-1" fill="currentColor" text-anchor="middle"><text x="60" y="19">THE</text><text x="60" y="40">SERVICE</text><text x="60" y="61">EDIT</text></g></svg><small>Prepared for Spirit House</small></div></header>
+<section class="band intro"><div class="wrap">
+<h1>Three emails for Spirit House.</h1>
+<p>Built from your own products, photos and prices, in your brand. Every button links to a real page on your site. Scroll inside each phone to see the whole email.</p>
+</div></section>
+<section class="emails"><div class="wrap"><div class="grid">
+<div class="card"><div class="k">The welcome</div><h2>Welcome through the gates</h2><p>Introduces the restaurant, cooking school, Hong Sa Bar and functions to every new subscriber.</p><div class="phone"><iframe title="The welcome email for Spirit House" srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&quot;en-AU&quot;&gt;&lt;head&gt;
+&lt;base target=&quot;_blank&quot;&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;
 &lt;meta name=&quot;x-apple-disable-message-reformatting&quot;&gt;&lt;title&gt;Welcome to Spirit House&lt;/title&gt;
 &lt;link href=&quot;https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
 &lt;style&gt;
@@ -103,12 +128,9 @@ a{color:inherit}
 &lt;a href=&quot;https://www.instagram.com/the_spirithouse/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;color:#E6E4CF;text-decoration:underline;&quot;&gt;Instagram&lt;/a&gt; &amp;nbsp;&amp;middot;&amp;nbsp; &lt;a href=&quot;https://www.facebook.com/spirithouse.restaurant&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;color:#E6E4CF;text-decoration:underline;&quot;&gt;Facebook&lt;/a&gt; &amp;nbsp;&amp;middot;&amp;nbsp; &lt;a href=&quot;https://www.spirithouse.com.au/contact&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;color:#E6E4CF;text-decoration:underline;&quot;&gt;Getting Here&lt;/a&gt;&lt;/p&gt;
 &lt;p style=&quot;margin:0;font-family:&#x27;PT Serif&#x27;,Georgia,&#x27;Times New Roman&#x27;,serif;font-size:12px;line-height:19px;color:#E6E4CF99;&quot;&gt;You&#x27;re receiving this because you subscribed to occasional updates and special offers from Spirit House.&lt;br&gt;
 &lt;a href=&quot;https://www.spirithouse.com.au/privacy&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;color:#E6E4CF99;text-decoration:underline;&quot;&gt;Privacy Policy&lt;/a&gt; &amp;nbsp;&amp;middot;&amp;nbsp; &lt;a href=&quot;mailto:office@spirithouse.com.au?subject=Unsubscribe&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;color:#E6E4CF99;text-decoration:underline;&quot;&gt;Unsubscribe&lt;/a&gt;&lt;/p&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;" loading="lazy"></iframe></div>
-<figcaption>The welcome email you&rsquo;re missing: sent the moment someone subscribes</figcaption></figure>
-<figure class="item">
-<div class="meta"><span class="n">02</span><span class="subj">Subject: A few hours in Asia, gift-wrapped</span></div>
-<div class="phone"><div class="notch"></div><iframe title="Email 2: A few hours in Asia, gift-wrapped" srcdoc="&lt;!doctype html&gt;
-&lt;html lang=&quot;en-AU&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;"></iframe><div class="hint">Scroll to see the whole email</div></div></div><div class="card"><div class="k">Christmas</div><h2>A few hours in Asia, gift-wrapped</h2><p>Gift vouchers for dinner or a class, with a last-minute path for late shoppers.</p><div class="phone"><iframe title="Christmas email for Spirit House" srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&quot;en-AU&quot;&gt;&lt;head&gt;
+&lt;base target=&quot;_blank&quot;&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;
 &lt;meta name=&quot;x-apple-disable-message-reformatting&quot;&gt;&lt;title&gt;A few hours in Asia, gift-wrapped&lt;/title&gt;
 &lt;link href=&quot;https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
 &lt;style&gt;
@@ -198,12 +220,9 @@ a{color:inherit}
 &lt;a href=&quot;https://www.instagram.com/the_spirithouse/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;color:#0C0A09;text-decoration:underline;&quot;&gt;Instagram&lt;/a&gt; &amp;nbsp;&amp;middot;&amp;nbsp; &lt;a href=&quot;https://www.facebook.com/spirithouse.restaurant&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;color:#0C0A09;text-decoration:underline;&quot;&gt;Facebook&lt;/a&gt; &amp;nbsp;&amp;middot;&amp;nbsp; &lt;a href=&quot;https://www.spirithouse.com.au/contact&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;color:#0C0A09;text-decoration:underline;&quot;&gt;Getting Here&lt;/a&gt;&lt;/p&gt;
 &lt;p style=&quot;margin:0;font-family:&#x27;PT Serif&#x27;,Georgia,&#x27;Times New Roman&#x27;,serif;font-size:12px;line-height:19px;color:#1C1917B3;&quot;&gt;You&#x27;re receiving this because you subscribed to occasional updates and special offers from Spirit House.&lt;br&gt;
 &lt;a href=&quot;https://www.spirithouse.com.au/privacy&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;color:#1C1917B3;text-decoration:underline;&quot;&gt;Privacy Policy&lt;/a&gt; &amp;nbsp;&amp;middot;&amp;nbsp; &lt;a href=&quot;mailto:office@spirithouse.com.au?subject=Unsubscribe&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;color:#1C1917B3;text-decoration:underline;&quot;&gt;Unsubscribe&lt;/a&gt;&lt;/p&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;" loading="lazy"></iframe></div>
-<figcaption>Christmas gift vouchers: any amount, printable in minutes</figcaption></figure>
-<figure class="item">
-<div class="meta"><span class="n">03</span><span class="subj">Subject: Christmas, cooked by you</span></div>
-<div class="phone"><div class="notch"></div><iframe title="Email 3: Christmas, cooked by you" srcdoc="&lt;!doctype html&gt;
-&lt;html lang=&quot;en-AU&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;"></iframe><div class="hint">Scroll to see the whole email</div></div></div><div class="card"><div class="k">Cooking school</div><h2>Christmas, cooked by you</h2><p>Fills the last Spirit of Christmas class, then your New Year’s Eve and New Year’s Day classes.</p><div class="phone"><iframe title="Cooking school email for Spirit House" srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&quot;en-AU&quot;&gt;&lt;head&gt;
+&lt;base target=&quot;_blank&quot;&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;
 &lt;meta name=&quot;x-apple-disable-message-reformatting&quot;&gt;&lt;title&gt;Christmas, cooked by you&lt;/title&gt;
 &lt;link href=&quot;https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
 &lt;style&gt;
@@ -305,8 +324,16 @@ a{color:inherit}
 &lt;a href=&quot;https://www.instagram.com/the_spirithouse/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;color:#E6E4CF;text-decoration:underline;&quot;&gt;Instagram&lt;/a&gt; &amp;nbsp;&amp;middot;&amp;nbsp; &lt;a href=&quot;https://www.facebook.com/spirithouse.restaurant&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;color:#E6E4CF;text-decoration:underline;&quot;&gt;Facebook&lt;/a&gt; &amp;nbsp;&amp;middot;&amp;nbsp; &lt;a href=&quot;https://www.spirithouse.com.au/contact&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;color:#E6E4CF;text-decoration:underline;&quot;&gt;Getting Here&lt;/a&gt;&lt;/p&gt;
 &lt;p style=&quot;margin:0;font-family:&#x27;PT Serif&#x27;,Georgia,&#x27;Times New Roman&#x27;,serif;font-size:12px;line-height:19px;color:#E6E4CF99;&quot;&gt;You&#x27;re receiving this because you subscribed to occasional updates and special offers from Spirit House.&lt;br&gt;
 &lt;a href=&quot;https://www.spirithouse.com.au/privacy&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;color:#E6E4CF99;text-decoration:underline;&quot;&gt;Privacy Policy&lt;/a&gt; &amp;nbsp;&amp;middot;&amp;nbsp; &lt;a href=&quot;mailto:office@spirithouse.com.au?subject=Unsubscribe&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;color:#E6E4CF99;text-decoration:underline;&quot;&gt;Unsubscribe&lt;/a&gt;&lt;/p&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;" loading="lazy"></iframe></div>
-<figcaption>Filling the last Christmas class, then New Year&rsquo;s Eve and Day</figcaption></figure>
-</main>
-<footer>Mockups prepared for Spirit House by The Service Edit. All links go to live pages on spirithouse.com.au.</footer>
-<p style="text-align:center;font:12px/1.5 system-ui,sans-serif;color:#777;margin:8px 16px 24px">Concept mockups by The Service Edit. These emails have not been sent to anyone.</p></body></html>
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;"></iframe><div class="hint">Scroll to see the whole email</div></div></div>
+</div></div></section>
+<section class="band close"><div class="wrap">
+<h3>Want these sending for you?</h3>
+<p>I build and run email for independent Australian food and hospitality businesses: the emails, the imagery, the automations and the reporting. Reply to my email, or write to hello@theserviceedit.com, and we'll find 15 minutes.</p>
+<div class="who">Mel Cox · The Service Edit · Perth, WA · theserviceedit.com</div>
+<div class="note">Mockups only. Nothing here has been sent to your customers.</div>
+</div></section>
+<script>
+document.querySelectorAll('iframe').forEach(function(f){f.addEventListener('load',function(){try{var d=f.contentDocument;var n=d.querySelector('.mock-note');if(n)n.style.display='none';}catch(e){}});});
+</script>
+</body>
+</html>
